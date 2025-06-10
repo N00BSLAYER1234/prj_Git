@@ -1,11 +1,239 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <title>Chi Sono - Crocchette Premium per Gatti</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
 </head>
-<body>
-    <h1> About me </h1>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <div class="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold text-lg">🐱</span>
+                    </div>
+                    <span class="ml-3 text-xl font-semibold text-gray-900">FelineCare</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-orange-600 transition-colors">Home</a>
+                    <a href="#" class="text-gray-700 hover:text-orange-600 transition-colors">Prodotti</a>
+                    <a href="#" class="text-orange-600 font-medium">Chi Sono</a>
+                    <a href="#" class="text-gray-700 hover:text-orange-600 transition-colors">Contatti</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-orange-50 to-amber-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+                        Ciao, sono <span class="text-orange-600">Maria</span>
+                    </h1>
+                    <p class="text-xl text-gray-700 mb-8 leading-relaxed">
+                        La mia passione per i gatti e la loro nutrizione mi ha portato a creare 
+                        <strong>FelineCare</strong>, dove ogni crocchetta è selezionata con amore 
+                        per garantire il benessere dei nostri amici felini.
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <div class="flex -space-x-2">
+                            <div class="w-8 h-8 bg-orange-400 rounded-full border-2 border-white"></div>
+                            <div class="w-8 h-8 bg-amber-400 rounded-full border-2 border-white"></div>
+                            <div class="w-8 h-8 bg-yellow-400 rounded-full border-2 border-white"></div>
+                        </div>
+                        <span class="text-sm text-gray-600">Oltre 1000 gatti felici</span>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+    <div class="grid grid-cols-2 gap-4 max-w-sm">
+        <div class="relative group">
+            <img src="https://images.unsplash.com/photo-1574144611937-0df059b5ef3e?w=150&h=120&fit=crop&crop=face" 
+                 alt="Gatto Persiano - Whiskers" 
+                 class="rounded-xl shadow-lg w-full h-28 object-cover group-hover:scale-105 transition-transform duration-300">
+            <div class="absolute bottom-2 left-2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded">
+                Whiskers - Persiano
+            </div>
+        </div>
+        <div class="relative group">
+            <img src="https://images.unsplash.com/photo-1513245543132-31f507417b26?w=150&h=120&fit=crop&crop=face" 
+                 alt="Gatto Siamese - Luna" 
+                 class="rounded-xl shadow-lg w-full h-28 object-cover group-hover:scale-105 transition-transform duration-300">
+            <div class="absolute bottom-2 left-2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded">
+                Luna - Siamese
+            </div>
+        </div>
+        <div class="relative group">
+            <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=150&h=120&fit=crop&crop=face" 
+                 alt="Gatto Maine Coon - Simba" 
+                 class="rounded-xl shadow-lg w-full h-28 object-cover group-hover:scale-105 transition-transform duration-300">
+            <div class="absolute bottom-2 left-2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded">
+                Simba - Maine Coon
+            </div>
+        </div>
+        <div class="relative group">
+            <img src="https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=150&h=120&fit=crop&crop=face" 
+                 alt="Gatto British Shorthair - Mia" 
+                 class="rounded-xl shadow-lg w-full h-28 object-cover group-hover:scale-105 transition-transform duration-300">
+            <div class="absolute bottom-2 left-2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded">
+                Mia - British Shorthair
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">La Mia Storia</h2>
+                <div class="w-24 h-1 bg-orange-500 mx-auto"></div>
+            </div>
+            
+            <div class="prose prose-lg mx-auto text-gray-700">
+                <p class="text-xl leading-relaxed mb-8">
+                    Tutto è iniziato 15 anni fa quando ho adottato il mio primo gatto, Whiskers. 
+                    Vedere come la sua salute migliorava drasticamente con un'alimentazione di qualità 
+                    mi ha aperto gli occhi sull'importanza della nutrizione felina.
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-12">
+                    <div class="bg-orange-50 p-6 rounded-xl">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">🎓 Formazione</h3>
+                        <p>Laurea in Veterinaria e specializzazione in Nutrizione Animale presso l'Università di Milano</p>
+                    </div>
+                    <div class="bg-amber-50 p-6 rounded-xl">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">💼 Esperienza</h3>
+                        <p>10+ anni come consulente nutrizionale per cliniche veterinarie in tutta Italia</p>
+                    </div>
+                </div>
+                
+                <p class="text-lg leading-relaxed">
+                    Dopo anni di ricerca e collaborazione con i migliori produttori europei, 
+                    ho deciso di creare FelineCare per offrire direttamente ai proprietari di gatti 
+                    le crocchette premium che raccomando quotidianamente nella mia pratica professionale.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">I Miei Valori</h2>
+                <p class="text-xl text-gray-600">Quello in cui credo profondamente</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🏆</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Qualità Premium</h3>
+                    <p class="text-gray-600">Solo ingredienti di altissima qualità, selezionati personalmente da fornitori certificati</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-amber-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">❤️</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Amore per i Gatti</h3>
+                    <p class="text-gray-600">Ogni decisione è presa pensando al benessere e alla felicità dei nostri amici felini</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl">🌱</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Sostenibilità</h3>
+                    <p class="text-gray-600">Packaging eco-friendly e partnership con aziende che rispettano l'ambiente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Touch Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-orange-500 to-amber-500 rounded-2xl p-8 text-white">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h2 class="text-2xl font-bold mb-4">I Miei Compagni Felini</h2>
+                        <p class="text-orange-100 mb-6">
+                            Attualmente condivido la mia casa con 4 gatti: Whiskers (15 anni), 
+                            Luna (8 anni), Simba (5 anni) e la piccola Mia (2 anni). 
+                            Sono i miei migliori "tester" e consulenti!
+                        </p>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-sm font-medium">I loro cibi preferiti:</span>
+                            <div class="flex space-x-1">
+                                <span class="px-2 py-1 bg-white bg-opacity-20 rounded-full text-xs">Salmone</span>
+                                <span class="px-2 py-1 bg-white bg-opacity-20 rounded-full text-xs">Pollo</span>
+                                <span class="px-2 py-1 bg-white bg-opacity-20 rounded-full text-xs">Agnello</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center">
+    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=300&h=250&fit=crop" 
+         alt="I gatti di Maria insieme" 
+         class="rounded-xl shadow-lg">
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gray-900 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Hai Domande sulla Nutrizione del Tuo Gatto?</h2>
+            <p class="text-xl text-gray-300 mb-8">
+                Sono sempre disponibile per consigli personalizzati. 
+                Ogni gatto è unico e merita un'alimentazione su misura.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#" class="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                    Contattami per Consigli
+                </a>
+                <a href="#" class="border border-gray-600 hover:border-gray-400 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                    Scopri i Prodotti
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <div class="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold">🐱</span>
+                    </div>
+                    <span class="ml-2 text-lg font-semibold">FelineCare</span>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Termini</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Contatti</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400">
+                <p>&copy; 2024 FelineCare. Fatto con ❤️ per i gatti e i loro umani.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
